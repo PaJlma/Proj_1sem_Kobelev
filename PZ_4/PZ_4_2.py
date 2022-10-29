@@ -15,6 +15,6 @@ def program():
     except ValueError:
         print("Ошибка ввода")
 
-    print(answer)
+    print(answer) #вывод ответа
 
 program()
