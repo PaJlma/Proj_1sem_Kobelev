@@ -8,11 +8,16 @@ def program():
         answer = 0
         i = 0
 
-        while i != N:
-            i += 1
-            answer += 1 / i
+        if N > 0:
+            while i != N:
+                i += 1
+                answer += 1 / i
 
-        print(answer)
+            print(answer)
+
+        else:
+            print('Число должно быть больше нуля')
+            program()
 
     except ValueError:
         print("Ошибка ввода")

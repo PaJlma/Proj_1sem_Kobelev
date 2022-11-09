@@ -9,13 +9,18 @@ def program():
         answer = 0
         i = 0
 
-        while A > answer:
-            i += 1
-            answer += 1/i
-            print(f"Iteration: {i}")
+        if A > 0:
+            while A > answer:
+                i += 1
+                answer += 1/i
+                print(f"Iteration: {i}")
 
 
-        print(f"Ответ был числом {i}, сумма деления на единицу этого числа - {answer}")
+            print(f"Ответ был числом {i}, сумма деления на единицу этого числа - {answer}")
+
+        else:
+            print('Число должно быть больше нуля')
+            program()
 
     except ValueError:
         print("Ошибка ввода")
