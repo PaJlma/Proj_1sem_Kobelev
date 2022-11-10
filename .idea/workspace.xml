@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="первый коммит">
+    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="09.11.22 - debug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_4/PZ_4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_4/PZ_4_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_4/PZ_4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_4/PZ_4_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_5/PZ_5_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_5/PZ_5_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_5/PZ_5_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_5/PZ_5_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     </file-type-list>
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="03ba93b1-2a50-45ce-b139-62c599313057" />
+    <option name="defaultAccountId" value="a113aa36-48dc-4598-b504-da3e595ed998" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,28 +45,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.PZ_4_2">
-    <configuration name="PZ_3_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proj_1sem_Kobelev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_3/PZ_3_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "inlay.hints"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.PZ_5_1">
     <configuration name="PZ_3_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Kobelev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,12 +121,33 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Евгений\Desktop\Proj_1sem_Kobelev\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_5" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_5/PZ_5_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PZ_5_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Kobelev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Евгений\Desktop\Proj_1sem_Kobelev\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_5" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_5/PZ_5_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PZ_5_1" />
+        <item itemvalue="Python.PZ_5_2" />
         <item itemvalue="Python.PZ_4_2" />
         <item itemvalue="Python.PZ_4_1" />
-        <item itemvalue="Python.PZ_5_1" />
         <item itemvalue="Python.PZ_3_2" />
-        <item itemvalue="Python.PZ_3_1" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667054115001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="09.11.22 - debug">
+      <created>1667988555260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667988555260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +226,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="первый коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="первый коммит" />
+    <MESSAGE value="09.11.22 - debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.11.22 - debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
