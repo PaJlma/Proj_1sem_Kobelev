@@ -18,3 +18,4 @@ D = round(uniform(-10, 10), 2)
 print(f'Было: {A}, {B} | Стало: { swap(A, B)[0] }, { swap(A, B)[1] }')
 print(f'Было: {C}, {D} | Стало: { swap(C, D)[0] }, { swap(C, D)[1] }')
 print(f'Было: {B}, {C} | Стало: { swap(B, C)[0] }, { swap(B, C)[1] }')
+
