@@ -6,27 +6,27 @@
 import random
 
 def foo():
-    num = str(random.randint(1000, 9999))
+    num = random.randint(1000, 9999)
+    numStr = str(num)
     nCount = 0
 
-    numbers = list(num) #Строка разбивается в массив, для дальнейшего поиска совпадений с помощью count()
-    repeat = [] #Массив в который будут записываться повторяющиеся цифры
-
     '''
-    Ниже цикл проходится по записанным в массив numbers цифрам
-    и ищет совпадения с помощью count().
-    Если совпадений больше чем кол-во цифр в числе, то это значит,
-    что в числе есть повторяющиеся цифры
+    Ниже цикл на каждой итерации как бы "отрезает" правую цифру числа
+    и сравнивает её с исходным числом, ища повторения с помощью count()
     '''
 
-    for number in numbers:
-        nCount += num.count(number)
-        if num.count(number) > 1:
-            repeat.append(number)
+    iter = 0
+    numRaw = num
 
-    if nCount > len(numbers):
-        return f'Число: {num} | Есть повторения | Число повторений: {int((nCount - len(numbers))/2)} | Повторяются цифры: {set(repeat)}'
+    while iter < 4:
+        num = numRaw % 10
+        numRaw = numRaw // 10
+        nCount += numStr.count(str(num))
+        iter += 1
+
+    if nCount > 4:
+        return f'Число: {numStr} | Есть повторения'
     else:
-        return f'Число: {num} | Нет повторений'
+        return f'Число: {numStr} | Нет повторений'
 
 print(foo())
