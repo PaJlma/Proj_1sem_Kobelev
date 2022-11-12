@@ -24,6 +24,10 @@ def foo():
         nCount += numStr.count(str(num))
         iter += 1
 
+    '''
+    Если повторений больше чем цифр в числе, то повторения есть
+    '''
+
     if nCount > 4:
         return f'Число: {numStr} | Есть повторения'
     else:
