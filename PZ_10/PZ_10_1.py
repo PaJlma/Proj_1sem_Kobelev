@@ -7,23 +7,32 @@
 3. в каких магазинах можно приобрести сахар.
 '''
 
-magnit = {'молоко', 'соль', 'сахар'}
-pyaterochka = {'мясо', 'молоко', 'сыр'}
-perekrestok = {'молоко', 'творог', 'сыр', 'сахар'}
+magnit = {
+    'name': 'magnit',
+    'asort': {'молоко', 'соль', 'сахар'},
+}
+pyaterochka = {
+    'name': 'pyaterochka',
+    'asort': {'мясо', 'молоко', 'сыр'},
+}
+perekrestok = {
+    'name': 'perekrestok',
+    'asort': {'молоко', 'творог', 'сыр', 'сахар'},
+}
 allShops = [magnit, pyaterochka, perekrestok]
 findMilkAndCheese = []
 findSugar = []
 
-fullList = magnit | pyaterochka | perekrestok
+fullList = magnit['asort'] | pyaterochka['asort'] | perekrestok['asort']
 
 for shop in allShops:
-    if 'сыр' and 'молоко' in shop:
-        findMilkAndCheese.append(shop)
+    if 'молоко' in shop['asort'] and 'сыр' in shop['asort']:
+        findMilkAndCheese.append(shop['name'])
 
 for shop in allShops:
-    if 'сахар' in shop:
-        findSugar.append(shop)
+    if 'сахар' in shop['asort']:
+        findSugar.append(shop['name'])
 
-print(fullList)
-print(findMilkAndCheese)
-print(findSugar)
+
+print(f'Полный список товаров: {fullList}\nВ этих магазинах можно одновременно купить сыр и молоко: {findMilkAndCheese}\n'
+      f'В этих магазинах можно купить сахар: {findSugar}')
