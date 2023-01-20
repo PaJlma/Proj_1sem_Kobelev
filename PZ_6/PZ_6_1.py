@@ -9,7 +9,7 @@ import random
 iter = 0
 list = []
 
-while iter < 10:
+while iter < 10: #Заполнение массива
     list.append(random.randint(0, 100))
     iter += 1
 
