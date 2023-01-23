@@ -16,7 +16,7 @@ file1 = open('file1.txt', 'w')
 nums = []
 
 for i in range(0, random.randint(10, 30)):
-    nums.append(str(random.randint(1, 15))) #Заполнение массива
+    nums.append(str(random.randint(-15, 15))) #Заполнение массива
 
 numsStr = ' '.join(nums) #Преобразование массива в строку для заполнения файла
 
@@ -62,5 +62,5 @@ for i in range(0, thirdList+1):
 
 print(f'Исходные данные: {source}\n'
       f'Кол-во элементов: {len(sourceList)}\n'
-      f'Индекс последнего максимального элемента: {indexOfMaxNum} {maxNum}\n'
+      f'Индекс последнего максимального элемента: {indexOfMaxNum}, Этот элемент: {maxNum}\n'
       f'Поменяные первая и последняя треть: {sourceListInt}')
