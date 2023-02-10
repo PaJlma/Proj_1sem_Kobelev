@@ -5,13 +5,17 @@
 import random
 from functools import reduce
 
-matrix = [[], []]
+matrix = [[], [], []]
+list = []
 
 for i in range(0, random.randint(5, 25)):
     matrix[0].append(random.randint(-25, 25))
     matrix[1].append(random.randint(-25, 25))
+    matrix[2].append(random.randint(-25, 25))
 
-list = [i for i in matrix[0]] + [i for i in matrix[1]] #Представление матрицы в одномерном массиве
+for str in matrix:
+    list = list + [i for i in str] #Представление матрицы в одномерном массиве
+
 filtered = [i for i in list if i % 3 == 0 and i > 0] #Отфильтровывание через списковое включение
 
 if len(filtered) != 0:
@@ -21,6 +25,7 @@ if len(filtered) != 0:
     print(f'Исходная матрица:\n'
           f'{matrix[0]}\n'
           f'{matrix[1]}\n'
+          f'{matrix[2]}\n'
           f'Отфильтрованная матрица со значениями, кратными 3: {filtered}\n'
           f'Среднее арифмметическое: {average}')
 
