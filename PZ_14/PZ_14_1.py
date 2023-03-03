@@ -5,4 +5,5 @@ with open('Dostoevsky.txt', 'r', encoding='utf-8') as file:
 
     lastNamesPattern = re.compile(r'(?i)\bДостоевс\w*')
     lastNames = re.findall(lastNamesPattern, data)
+    lastNames = set(lastNames)
     print(lastNames)
