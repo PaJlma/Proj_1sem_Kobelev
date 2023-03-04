@@ -1,11 +1,7 @@
 defaultLenght = 5
 
-def squarePerimeter(lenght):
-    if lenght == None:
-        lenght = defaultLenght
+def squarePerimeter(lenght=defaultLenght):
     return lenght*4
 
-def squareArea(lenght):
-    if lenght == None:
-        lenght = defaultLenght
+def squareArea(lenght=defaultLenght):
     return lenght**2
