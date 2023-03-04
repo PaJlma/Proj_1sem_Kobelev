@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="commit 04.03.2023">
-      <change afterPath="$PROJECT_DIR$/PZ_16/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_16/figures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/doc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/doc/file_doc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/doc/list_doc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/lessons_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/lessons_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/lessons_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/lessons_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677933136244</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit 04.03.2023">
+      <created>1677935374020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677935374020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
