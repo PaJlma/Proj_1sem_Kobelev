@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="commit 04.03.2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/figures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/figures/square/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/square/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" afterDir="false" />
+    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="commit 10.03.2023">
       <change beforePath="$PROJECT_DIR$/PZ_16/figures/triangle/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_16/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677936237337</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit 10.03.2023">
+      <created>1678445862364</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678445862365</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +299,8 @@
     <MESSAGE value="commit 10.02.2023" />
     <MESSAGE value="commit 03.03.2023" />
     <MESSAGE value="commit 04.03.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 04.03.2023" />
+    <MESSAGE value="commit 10.03.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 10.03.2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
