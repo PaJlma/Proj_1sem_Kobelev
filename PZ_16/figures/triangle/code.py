@@ -1,3 +1,5 @@
+__all__ = ['trianglePerimeter', 'triangleArea']
+
 from math import sin
 
 defaultA = 5

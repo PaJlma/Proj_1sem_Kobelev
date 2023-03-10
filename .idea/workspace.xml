@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="commit 04.03.2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/circle/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/circle/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/square/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_16/figures/square/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/square/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_16/figures/triangle/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/figures/triangle/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.code (1)">
-    <configuration name="PZ_13_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proj_1sem_Kobelev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_13/PZ_13_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="PZ_13_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Kobelev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,6 +140,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Kobelev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_16/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Proj_1sem_Kobelev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.code (1)" />
         <item itemvalue="Python.code" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.PZ_13_2" />
-        <item itemvalue="Python.PZ_13_1" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677935832240</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit 04.03.2023">
+      <created>1677936020947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677936020947</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit 04.03.2023">
+      <created>1677936237337</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677936237337</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

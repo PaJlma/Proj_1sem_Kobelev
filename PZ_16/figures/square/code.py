@@ -1,3 +1,5 @@
+__all__ = ['squarePerimeter', 'squareArea']
+
 defaultLenght = 5
 
 def squarePerimeter(lenght=defaultLenght):
