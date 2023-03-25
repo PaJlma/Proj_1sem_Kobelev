@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="commit finished debugging PZ_13">
+    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="reg">
+      <change afterPath="$PROJECT_DIR$/Data Bases/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="4eb6e054-962d-4db7-8629-6d5b7f4a7c26" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/PZ_5/PZ_5_1.py" root0="FORCE_HIGHLIGHTING" />
@@ -214,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673616539775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="reg">
+      <created>1677839189384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677839189384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +238,8 @@
     <MESSAGE value="12.11.22 PZ_6 initial commit" />
     <MESSAGE value="26.11.22 PZ_6_2" />
     <MESSAGE value="14.12.2022 PZ_10_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.12.2022 PZ_10_1" />
+    <MESSAGE value="reg" />
+    <option name="LAST_COMMIT_MESSAGE" value="reg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
