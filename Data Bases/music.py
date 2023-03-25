@@ -5,7 +5,7 @@ with sq.connect('saper.db') as con:
  cur = con.cursor()
 
 with sq.connect('music.db') as con:
- con.execute('PRAGMA foreign_keys = ON')  # разрешает работу с внешними ключами
+ con.execute('PRAGMA foreign_keys = ON')
  cur = con.cursor()
  cur.execute("""CREATE TABLE IF NOT EXISTS tracks(
     id INTEGER PRIMARY KEY,
