@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="databases">
-      <change afterPath="$PROJECT_DIR$/PZ_15/PZ_15_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_15/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Proj_1sem_Kobelev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proj_1sem_Kobelev.iml" afterDir="false" />
+    <list default="true" id="60ba8587-1297-4740-9c05-7a033b2ecda6" name="Changes" comment="PZ_15_1.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673616539775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PZ_15_1.py">
+      <created>1680205217361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680205217361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +237,8 @@
     <MESSAGE value="12.11.22 PZ_6 initial commit" />
     <MESSAGE value="26.11.22 PZ_6_2" />
     <MESSAGE value="14.12.2022 PZ_10_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.12.2022 PZ_10_1" />
+    <MESSAGE value="PZ_15_1.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="PZ_15_1.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
