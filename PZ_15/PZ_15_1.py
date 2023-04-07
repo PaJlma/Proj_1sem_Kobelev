@@ -93,6 +93,22 @@ with sq.connect('dekanat.db') as con:
     """)
     con.commit()
 
+    # Создание таблицы academic_record (учебная карточка)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS academic_card ( 
+        id INT AUTO_INCREMENT PRIMARY KEY NOT NULL, 
+        student_name VARCHAR(255) NOT NULL, 
+        group_name VARCHAR(255) NOT NULL, 
+        specialty_name VARCHAR(255) NOT NULL, 
+        subject_id VARCHAR(255) NOT NULL, 
+        exam_form_id VARCHAR(255) NOT NULL, 
+        grade INT NOT NULL, 
+        FOREIGN KEY (subject_id) REFERENCES subject(id), 
+        FOREIGN KEY (exam_form_id) REFERENCES sub_form(id)
+        )
+        """) 
+    con.commit()
+
 with sq.connect('dekanat.db') as con:
     cursor = con.cursor()
 
@@ -152,6 +168,15 @@ with sq.connect('dekanat.db') as con:
     cursor.execute("""INSERT INTO applicants VALUES (2, "Касьянов", "Максим", "Юрьевич", "М", "2005-06-15", "г. Батайск", "Номер телефона", "Email", "2021-09-01", "Разработчик мобильных/десктопных приложений")""")
     cursor.execute("""INSERT INTO applicants VALUES (3, "Кмета", "Антон", "Геннадиевич", "М", "2005-07-22", "г. Красный Сулин", "Номер телефона", "Email", "2021-09-01", "Разработчик Web-Мультимедийных приложений")""")
     cursor.execute("""INSERT INTO applicants VALUES (4, "Медведев", "Иван", "Юрьевич", "М", "2005-04-08", "г. Азов", "Номер телефона", "Email", "2021-09-01", "Неопределившийся")""")
-    cursor.execute("""INSERT INTO applicants VALUES (5, "Зубков", "Роман", "????????", "М", "2005-04-09", "г. Батайск", "Номер телефона", "Email", "2021-09-01", "Разработчик Web-Мультимедийных приложений")""")
-    cursor.execute("""INSERT INTO applicants VALUES (6, "Пермяков", "Руслан", "????????", "М", "2005-03-23", "г. Гуково", "Номер телефона", "Email", "2021-09-01", "Разработчик Web-Мультимедийных приложений")""")
+    cursor.execute("""INSERT INTO applicants VALUES (5, "Зубков", "Роман", "Сергеевич", "М", "2005-04-09", "г. Батайск", "Номер телефона", "Email", "2021-09-01", "Разработчик Web-Мультимедийных приложений")""")
+    cursor.execute("""INSERT INTO applicants VALUES (6, "Пермяков", "Руслан", "Денисович", "М", "2005-03-23", "г. Гуково", "Номер телефона", "Email", "2021-09-01", "Разработчик Web-Мультимедийных приложений")""")
+    con.commit()
+
+    # Заполнение студенческих карточек
+    cursor.execute("""INSERT INTO academic_card VALUES (1, "Евгений", "ИС-24", "Программист", 1, 1, 5)""")
+    cursor.execute("""INSERT INTO academic_card VALUES (2, "Максим", "ИС-24", "Программист", 3, 1, 5)""")
+    cursor.execute("""INSERT INTO academic_card VALUES (3, "Антон", "ИС-24", "Программист", 4, 1, 2)""")
+    cursor.execute("""INSERT INTO academic_card VALUES (4, "Роман", "ИС-24", "Программист", 9, 1, 5)""")
+    cursor.execute("""INSERT INTO academic_card VALUES (5, "Иван", "ИС-24", "Программист", 10, 1, 5)""")
+    cursor.execute("""INSERT INTO academic_card VALUES (6, "Руслан", "ИС-24", "Программист", 6, 1, 2)""")
     con.commit()
